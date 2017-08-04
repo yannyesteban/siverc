@@ -1,0 +1,156 @@
+body{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+td.sigefor_rpt_detalle{
+	font-family: tahoma;
+	font-size: 7pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+
+	
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	vertical-align: top;
+}
+th{
+	font-family: tahoma;
+	font-size: 7pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	text-decoration: none;
+	background-color:#003366;
+	color:#FFFFFF;
+}
+th.corte
+{
+	font-family: tahoma;
+	font-size: 7pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align:left;
+
+}
+table{
+
+	
+}
+caption{
+	font-family: tahoma;
+	font-size: 7pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+
+}
+td.negro{
+	color: #FFFAFA;
+	font-weight: bold;
+	background-color: #878787;
+	text-align: right;
+
+}
+td.rojo{
+	color: red;
+	font-weight: bold;
+	text-align: right;
+}
+th.rojo{
+	color: red;
+	font-weight: bold;
+	font-size: 7pt;
+	background-color: red;
+
+}
+.prisma{
+	color: Black;
+	font-weight: bold;
+	background-color: #EEEEEE;
+	font-size: 7pt;
+}
+th.k{
+	background: #006400;
+	color: Yellow;
+	
+	
+}
+.ex{
+	text-transform: uppercase;
+	font-size: 7pt;
+	color: White;
+	background-color: #A52A2A;
+}
+th.ex{
+	text-transform: uppercase;
+	font-size: 7pt;
+	color: #FFD700;
+	background-color: #6B8E23;
+
+}
+.ex1{
+	text-transform: uppercase;
+	font-size: 7pt;
+	background-color: #B0E0E6;
+	cursor: pointer;
+	color: Navy;
+
+}
+th.clase_titulo_reporte{
+	background-color: #6495ed;
+	color: white;
+	font-size: 12pt;
+	pause-before: 1;
+}
+.QQQ{
+	color:red;
+}
+.XXX{
+	color:blue;
+	background-color: #E6E6FA;
+
+	
+	
+}
+
+.firma{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.sigefor_rpt_corte_0{
+background-color:#000099;
+color:white; 
+font-weight:normal;
+}
+.sigefor_rpt_corte_1{
+background-color:#B3DDFF; 
+font-weight:normal;
+color:#003399;
+}
+.sigefor_rpt_pie_corte_1{
+color:#003366;
+font-weight:bold;
+
+}
+
+.sigefor_rpt_pie_corte_0{
+color:#0066CC;
+font-weight:bold;
+
+}
+
+.sigefor_rpt_pie_inf{
+background-color:#999999;
+color:white;
+font-weight:bold;
+
+}

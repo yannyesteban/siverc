@@ -1,0 +1,610 @@
+html{
+	height: 100%;
+}
+form{
+	margin: 0px;
+}
+body{
+	background-image: url(../imagenes/fondo.jpg);
+	background-attachment:fixed;
+	height: 100%;
+	margin: 0px;
+	border-radius: 6px;
+	font-size: 8pt;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;	
+}
+.sg_panel_1{	
+	border-color:transparent;
+	border-width:5px;
+	border-style:solid;
+	padding:1px;
+	background-image: url(../imagenes/panel1.png);
+}
+.sg_panel_2{
+	border-color:transparent;
+	border-width:5px;
+	border-style:solid;
+	padding:1px;
+	background-image: url(../imagenes/panel2.png);}
+.sg_panel_3{
+	padding:3px;
+}
+.sg_panel_4{
+	border-color:#97C9FB;
+	background-color:#D5E7FD;
+	/*background-color:#9CF;
+	border-color:#69F;*/
+	border-width:5px;
+	border-style:solid;
+	padding:10px;
+}
+.sg_panel_99 {
+    background-image: url("../imagenes/itemover.png");
+    color:black;
+    font-family: Tahoma;
+    font-size: 13pt;
+    padding: 10px;
+	font-weight: bold;
+	border-radius: 4px;
+    text-align:center;
+}
+.sg_panel_100{
+	background-image: url(../imagenes/panel100.png);
+
+}
+.franjainferior{	
+    background-image: url("../imagenes/calendsemana.png");
+    color:black;
+    font-family: Tahoma;
+    font-size: 8pt;
+    border-radius: 4px;
+    text-align:right;
+}
+/****** seccion Menues **********************/
+table.sigefor_men{
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+	background-color: transparent;
+	border-spacing:3px;
+	border-collapse:separate;
+	margin-bottom:4px;	
+	
+}
+table.submenu_men{
+	border-style:solid;
+	border-color:#A9E2F3;
+	border-width:1px;
+	//background-color: transparent;
+	background: url(../imagenes/calendsemana.png);
+	border-spacing:3px;
+	border-collapse:separate;
+	margin-bottom:4px;	
+	
+}
+.sub_men{
+	background: url(../imagenes/calendsemana.png);
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+	background-color: transparent;
+	border-spacing:3px;
+	border-collapse:separate;
+	margin-bottom:4px;	
+	
+}
+.sigefor_men_titulo{
+	background: url(../imagenes/menutitulo.png);
+	height:25px;
+	font-size: 10pt;
+	font-family: Tahoma;
+	text-align: center;
+	color: white;
+    border-radius: 6px;
+	}
+.sigefor_men_itm{
+	background-color:  transparent;
+	height:25px;
+	color: black;
+	font-weight: bold;
+	background-image: url(../imagenes/menuitem.png);
+	padding-left:5px;
+    border-radius: 6px;
+
+}
+.sigefor_men_itm_over{
+	background-color: transparent;
+	background-image: url(../imagenes/itemover.png);
+	height:25px;
+	color: green;
+	cursor: pointer;
+	font-weight: bold;
+	z-index: 1;
+	padding-left:5px;
+}
+
+.sigefor_men_itm_disabled{
+	background:  url(../imagenes/calendsemana.png);
+	color: black;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+/****** seccion Menues **********************/
+input,textarea, select{
+	font-size: 8pt;
+	font-family: Tahoma;
+	border: 1px solid #CCC;
+	border-radius: 6px;
+	color:#666666;
+	background-color:white;
+}
+
+select option{
+	font-size: 8pt;
+	font-family: Tahoma;
+	color:#666666;
+	background-color:transparent;
+}
+
+textarea{
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+
+
+/*    estilos  */
+div.sigefor_div_buscar{
+	background: #fffb82;
+}
+
+.sigefor_pag_ir_a{
+	color: white;
+	font-weight: bold;
+	font-size: 8pt;
+}
+hr.sigefor_pag_regla{
+	color: #006400;
+	border: 1px solid #006400;
+	}
+select.sigefor_pag_combo{
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: blue;
+	background: #f0f8ff;
+	font-weight: bold;
+	border: 1px solid blue;
+}
+.sigefor_consulta{
+	background-color:transparent;
+	height: 100%;
+	width: 100%;
+}
+.sigefor_con_pie_consulta{
+	background-color: transparent;
+	color:blue;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color: #f4a460;
+	text-align:right;
+}
+table.sigefor_form_buscar{
+	background-color: white;
+	width: 280px;
+	vertical-align: middle;
+}
+table.sigefor_paginador{
+	background: transparent;
+	height: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+.sigefor_pag_cont{
+	text-align: center;
+	background-color:transparent;
+	color:#FF0;
+	background-image:url(../imagenes/blanco11.png);
+}
+.sigefor_for_indicador{
+	color: #F00;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+td.sigefor_for_control, td.sigefor_form_q{
+	background: url(../imagenes/formcontrol.png);
+
+}
+table.sigefor_form_q{	
+	border-collapse:separate;
+	border-style:none;
+	border-bottom-width:10px;
+	
+	}
+td.sigefor_form_q{
+	padding-top:5px;
+	vertical-align: text-bottom;
+	text-align: center;
+	height: 32px;
+	color: blue;
+	background-color: #8fbc8f;
+	background: url(../imagenes/form.png);
+	
+}
+th.sigefor_for_titulo{
+	background: url(../imagenes/fortitulo.png);
+	border-radius: 6px;
+
+}
+th.sigefor_form_q{
+	background-color: #5f9ea0;
+	text-align: center;
+	color: #ffffe0;
+
+}
+
+caption.sigefor,.sigefor_con_caption,.sigefor_for_caption{
+	color:white;
+	padding: 2px;
+    background-image: url(../imagenes/menu.png);
+	font-size: 10pt;
+	font-family: Tahoma;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 6px;
+	height: 28px;
+	vertical-align:middle;
+	padding-top:4px;
+
+	margins: 1px 1px 1px 1px;
+}
+.sigefor_con_contador_over{
+	cursor: pointer;
+	border-style: outset;
+	border-width: 2px;
+	border-bottom-color: #e0ffff;
+	background-image: url(../imagenes/fondo_xrojo3.png);
+	color: yellow;
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.sigefor_con_grupo{
+	background-color: blue;
+	color: #fffafa;
+}
+
+.sigefor_for_grupo{
+	text-align: center;
+	background-image: url(../imagenes/forgrupo.png);
+	color: black;
+}
+.sigefor_con_contador0,.sigefor_con_seleccion0,.sigefor_con_detalle0{
+	background-color: transparent;
+	color: black;
+	height:  2em;
+	padding: 0px 2px 0px 2px;
+	background-image: url(../imagenes/fordetalle.png);
+}
+.sigefor_con_contador1,.sigefor_con_seleccion1,.sigefor_con_detalle1{
+	background-color: transparent;
+	color: black;
+	height: 8px;
+	padding: 0px 2px 0px 2px;
+	height:  2em;
+	background-image: url(../imagenes/fordetalle1.png);
+}
+input.sigefor_con_ctl_seleccion{
+	border-bottom-style: none;
+}
+.sigefor_con_titulo{
+	border-bottom-color:#033;	
+	background-color: transparent;
+	text-align: left;
+	color:#000;
+	font-weight: bold;
+	background-color:#FFF;
+	background: url(../imagenes/titulo.png);
+	}
+.sigefor_pag_cont{
+	
+}
+td.sigefor_navegador{
+	text-align: right;
+	background-image: url(../imagenes/navegador.png);
+}
+input.sigefor_nav_item,.sigefor_form_q_boton{
+	background-image: url(../imagenes/boton.png);
+	color:#FFFFFF;
+	cursor: pointer;
+	border: 1px solid #000066;
+	font-size: 8pt;
+	font-weight: bold;
+	border-radius: 6px;
+	/*text-shadow: black 0.1em 0.1em 0.2em;*/
+	
+}
+input.sigefor_con_nuevo{
+	background-image: url(../imagenes/barra_titulo_azul.png);
+	vertical-align: top;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+}
+.sigefor_navegador{
+}
+
+/*estilos del calendario */
+.sigefor_cal_icono{
+	font-weight: bold; font-size: 0px; 
+	background-image: url(../imagenes/cal1.png); 
+	width: 22px; 
+	cursor: pointer; 
+	border-top-style: none; 
+	border-right-style: none; 
+	border-left-style: none; 
+	height: 18px; 
+	background-color: transparent; 
+	border-bottom-style: none;
+	vertical-align:text-top;
+}
+th.sigefor_cal_dia, th.sigefor_cal_semana{
+background-image: url(../imagenes/calsemana.png);
+color:white;
+height:20px;
+padding:2px;
+}
+.sigefor_cal_mes_ant,.sigefor_cal_mes_sig,.sigefor_cal_mes,.sigefor_cal_ano{
+background-color: transparet;
+color:aqua;
+background-image: url(../imagenes/calmes.png);
+	border-color: width;
+	border-width: 1px; 
+	border-style:none;
+}
+table.sigefor_cal{
+	background-image: url(../imagenes/cal.png);
+	border-color: white;
+	border-width: 2px;
+	border-style:solid;
+	
+}
+caption.sigefor_cal_caption{
+	/*background-color: fuchsia;
+	color: aqua;*/
+}
+td.sigefor_cal_dia{
+	background: url(../imagenes/caldia.png);
+	color:white;
+	text-align:right;
+	font-size:9pt;
+}
+
+td.sigefor_cal_sel{
+	background-image: url(../imagenes/calsel.png);
+	color:white;
+	text-align:right;
+	font-size:9pt;
+}
+td.sigefor_cal_dia_over{
+	background-image: url(../imagenes/caldiaover.png);
+	color:yellow;
+	text-align:right;
+	font-size:9pt;
+	cursor:pointer;
+}
+th.sigefor_cal_hoy_over{
+	background-image: url(../imagenes/calhoyover.png);
+	color: yellow;
+	text-align:center;
+	font-size:8pt;
+	font-family:tahoma,arial;
+	cursor:pointer;
+}
+th.sigefor_cal_hoy{
+	background-image: url(../imagenes/calhoy.png);
+	color: white;
+	text-align:center;
+	font-size:8pt;
+	font-family:tahoma,arial;
+	cursor:pointer;
+}
+td.sigefor_cal_semana{
+	background-image: url(../imagenes/calendsemana.png);
+	color:white;
+	text-align:right;
+	font-size:9pt;
+	font-weight: bold;
+}
+td.sigefor_cal_semana_over{
+	color:white;
+	text-align:right;
+	font-size:9pt;
+	cursor:pointer;
+	font-weight: bold;	
+	background-image: url(../imagenes/calsemanaover.png);
+}
+/*    estilos del query 2004 */
+th.query{
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	background-color: #003399;
+	text-align: center;
+	font-weight:bold;
+	text-transform: capitalize;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-image:url(../imagenes/fondo_azul.gif);
+}
+a.query,tr.query,td.query{
+	font-size: 8pt;
+	font-family: Tahoma;
+	background-color: #D5F4FF;
+	color: #003399;
+	text-align: left;
+}
+table.query{
+	font-size: 8pt;
+	font-family: Tahoma;
+	background-color: #93BEFF;
+	color: #003399;
+	text-align: left;
+	border-color: #0066CC;
+}
+.barra_est{
+	background-image: url(../imagenes/blanco9);
+	padding: 4px;
+}
+table.sigefor td{	
+	color:#FFFFFF;
+}
+	
+.sigefor_formulario{	
+    border-style:solid;
+	border-color:#CCC;
+	border-width:-1px;	
+}
+
+.sigefor_pag_itm_ini, .sigefor_pag_itm_ant, .sigefor_pag_itm_sig, .sigefor_pag_itm_fin {
+	height: 14px;
+	width:12px;
+	line-height: 14px;
+	background-image: url("../imagenes/flechas_04.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.sigefor_pag_itm_ini{
+  background-position: 1px 2px;
+}
+.sigefor_pag_itm_ant{
+	background-position: -13px 2px;
+}
+.sigefor_pag_itm_sig{
+	background-position: -26px 2px;
+}
+.sigefor_pag_itm_fin{
+	background-position: -40px 2px;
+}
+.sigefor_pag_itm_ini:HOVER, .sigefor_pag_itm_ant:HOVER, .sigefor_pag_itm_sig:HOVER, .sigefor_pag_itm_fin:HOVER{
+	height: 14px;
+	width:12px;
+	line-height: 14px;
+	background-image: url("../imagenes/flechas_04.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.sigefor_pag_itm{
+	background-color: transparent;
+	text-align: center;
+	color:blue;
+	cursor: pointer;
+}
+.sigefor_pag_itm:HOVER{
+	text-align: center;
+	color: #C4D2FF;
+	cursor: pointer;
+	background-color: blue;
+}
+.sigefor_pag_itm_act{
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+span.sigefor_for_control, div.sigefor_for_control{
+	color:#FFCC66;
+	margin-left:20px;
+}
+select:disabled {
+    background-color: transparent;
+    color: #cccccc;
+}
+
+
+
+
+
+
+/****** seccion Menues **********************/
+table.siverc_men{
+	width:350px;
+
+	background-color: #FFF;
+	border-spacing:3px;
+	border-collapse:separate;
+	margin-bottom:4px;	
+	margin-top:10px;
+	_border-collapse:separate !important;
+	
+	border-spacing: 1px !important;
+    border-collapse: separate !important;
+	
+	
+}
+table.submenu_men{
+	border-style:solid;
+	border-color:#A9E2F3;
+	border-width:0px;
+	//background-color: transparent;
+	background: url(../imagenes/calendsemana.png);
+	border-spacing:3px;
+	border-collapse:separate;
+	margin-bottom:4px;	
+	
+}
+.sub_men{
+	background: url(../imagenes/calendsemana.png);
+	border-style:solid;
+	border-color:#FFF;
+	border-width:0px;
+	background-color: transparent;
+	border-spacing:0px;
+	border-collapse:collapse;
+	margin-bottom:4px;	
+	
+}
+.siverc_men_titulo{
+	background: url(../imagenes/menutitulo.png);
+	height:25px;
+	font-size: 10pt;
+	font-family: Tahoma;
+	text-align: center;
+	color: white;
+    _border-radius: 6px;
+	}
+.siverc_men_itm{
+	background-color:  transparent;
+	height:1.3em;
+	font-size:9pt;
+	color: black;
+	font-weight: normal;
+	background-image: url(../imagenes/menuitem.png);
+	padding-left:5px;
+    _border-radius: 6px;
+	border:0px solid red;
+
+}
+.siverc_men_itm_over{
+	background-color: #B3D9FF;
+	_background-image: url(../imagenes/itemover.png);
+	height:1.3em;
+	font-size:9pt;
+	color: #0080FF;
+	cursor: pointer;
+	font-weight: normal;
+	z-index: 1;
+	padding-left:5px;
+	border-width:0px;
+}
+
+.siverc_men_itm_disabled{
+	background:  url(../imagenes/calendsemana.png);
+	color: black;
+	font-weight: normal;
+	border-radius: 6px;
+}
+
+
