@@ -22,5 +22,5 @@ define ("C_JAVASCRIPT_","");
 define ("C_PLANTILLA_DEF","0");//0=Default, 1=Diagrama, 2=Archivo
 define ("C_TEMA_DEFAULT","primavera");
 define ("C_CLASE_DEFAULT","sigefor");
-define("C_METODO","POST");//GET,POST,''
+define ("C_METODO","POST");//GET,POST,''
 ?>

@@ -17,7 +17,7 @@ define ("C_PATH_GRAFICO","../../sigefor20/pchart/pChart/");
 define ("C_PATH_REPORTES","../../reportes/");
 define ("C_PANEL_DEFAULT","4");
 define ("C_PANEL_DEBUG","8");
-define ("C_HOJA_CSS","../../css/siverc_2017.css");
+define ("C_HOJA_CSS","../../css/sigefor2017.css");
 define ("C_JAVASCRIPT_","");
 define ("C_PLANTILLA_DEF","0");//0=Default, 1=Diagrama, 2=Archivo
 define ("C_TEMA_DEFAULT","primavera");
